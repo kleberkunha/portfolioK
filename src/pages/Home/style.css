@@ -1,0 +1,21 @@
+@media only screen and (max-width: 600px) {
+  .main-CV{
+    justify-content: center !important;
+    margin-top: -400px;
+  }
+  .svg-top-wave{
+    margin-top: -90px !important;
+  }
+}
+
+
+
+.background-top{
+  background-image: url("../../images/bg3.jpg");
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}

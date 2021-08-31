@@ -1,0 +1,33 @@
+.navbar{
+  background-color: rgb(36, 36, 36);
+  height: 40px;
+  width: 100%;
+  position: fixed;
+  z-index: 10;
+}
+.navbar-collapse{
+  display: flex;
+  justify-content: center;
+}
+.nav{
+  display: flex;
+  width: 40%;
+  padding: 10px;
+  margin-top: 7px;
+}
+.navbar-nav{
+  display: flex;
+  justify-content: space-between;
+}
+.navbar-nav a{
+  text-decoration: none;
+  color: white;
+}
+.navbar-nav a:hover{
+  border-bottom: 3px solid white;
+  margin-top: 3px;
+}
+
+.card-header{
+  border-bottom: 1px solid #6610f2 !important;
+}

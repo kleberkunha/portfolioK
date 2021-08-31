@@ -1,0 +1,16 @@
+.footer{
+  margin-bottom: -300px;
+  color: white;
+}
+
+.footer-text p{
+  margin-top: 80px;
+  position: absolute;
+  z-index: 10;
+  color: white;
+  margin-left: 28%;
+}
+
+.footer-text p a{
+  text-decoration: none;
+}

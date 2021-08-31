@@ -1,0 +1,259 @@
+@media only screen and (max-width: 600px) {
+  .hobie-mainUl{
+    display: block !important;
+    height: 0px;
+    visibility: hidden !important;
+  }
+  
+}
+
+
+
+.hobie-mainUl
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.content-MyDescription{
+  background-color: rgba(110, 110, 247, 0.164);
+}
+.presentation-title{
+  display: flex;
+  justify-content: center;
+
+}
+.drawSVG-aboutMe{
+  padding: 0px;
+}
+.content-MyDescription{
+  padding-top: 50px;
+}
+.react-svg-drawing{
+  padding: 0;
+}
+
+
+.icon-info{
+  background-image: url("../../images/information.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 50px;
+  height: 50px;
+}
+.title-presentation{
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+  width: 80px;
+  height: 80px;
+  margin-top: 30px;
+  border: 2px solid black;
+
+}
+/*RESIZE SVG*/
+
+.resize-svg{
+  display: flex;
+  justify-content: flex-end;
+  width: 30%;
+}
+.react-svg-drawing{
+  width: 400px !important; 
+  display: flex;
+  justify-content: center;
+  height: 620px;
+}
+#b61e48c1-5578-41dd-9a23-f8d90b26170f{
+  width: 300px ;
+  height: 400px;
+}
+
+
+
+
+
+
+.block-presentation-1{
+  display: flex;
+}
+
+.subBlock-presentation{
+  margin-top: 50px;
+  color: black;
+}
+
+/*HOBIES*/
+
+.list-hobies{
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+  width: 80%;
+  margin-right: -30%;
+}
+.hobie-mainUl{
+  display: flex;
+  justify-content: center;
+  align-items: flex-end; height: 500px;
+}
+.hobies{
+  padding-bottom: 50px;
+}
+
+.title-hobies{
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  width: 74%;
+}
+.skatesvg{
+  z-index: 2;
+  margin-bottom: -50px;
+  transform: rotate(0deg);
+  margin-left: -190px;
+  margin-bottom: 10px;
+}
+
+
+.svg-desc{
+  margin-top: -452px;
+}
+.svg-desc-2{
+  margin-top: -25px;
+}
+
+
+.comp-text{
+  width: 60px;
+  height: 60px;
+  background-image: url('../../images/+.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  color: white;
+}
+
+
+
+/*EFFECT CV ---- START ----*/
+.main-CV{
+  display: flex;
+  justify-content: flex-end;
+}
+.cv{
+  background-image: url("../../images/cv.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 200px;
+  height: 200px;
+  z-index: 5;
+  margin-top: 100px;
+  cursor: pointer;
+  padding: 0;
+}
+.cv:hover{
+  border-bottom: 1px solid white;
+}
+.cv-dw{
+  color: white;
+  margin-top: -50px;
+  font-size: 40px;
+}
+
+
+
+/*EFFECT CV ---- END ---- */
+
+ /*SOCIO MEDIA ---- START ----*/
+ 
+ .main-socio{
+  display: flex;
+ }
+  
+
+.list-socio{
+  display: flex;
+  margin-left: 70%;
+  position: relative;
+  justify-content: flex-end;
+  list-style: none;
+}
+
+.list-socio li{
+  color: white;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+
+.socio-1{
+  width: 70px;
+  height: 50px;
+  background-image: url("../../images/linkedin.png");
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  cursor: pointer;
+  border-radius: 20px;
+}
+.socio-1:hover{
+  border-bottom: 5px solid black;
+}
+
+.socio-2{
+  width: 70px;
+  height: 50px;
+  background-image: url("../../images/github.png");
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  border-radius: 20px;
+  cursor: pointer;
+}
+.socio-2:hover{
+  border-bottom: 5px solid black;
+}
+.item-socio{
+  margin-top: -100px;
+}
+
+.adjust-email{
+  z-index: 3;
+  height: 0px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+.email{
+  z-index: 3;
+  color: white;
+  display: flex;
+  margin-bottom: -40px;
+  justify-content: flex-end;
+  margin-left: -60px;
+  font-size: 25px;
+  cursor: pointer;
+}
+.email:hover{
+  color: blue;
+}
+/*SOCIO MEDIA ---- END ----*/
+
+
+.svg-top-wave{
+  margin-top: -345px;
+}

@@ -1,0 +1,67 @@
+@media only screen and (max-width: 600px) {
+  .list-socio{
+    margin-left: 0px !important;
+  }
+  .content-photo{
+    visibility: hidden;
+    width: 0px !important;
+  }
+  .card-header{
+    width: 0px;
+  }
+  .content-aboutMe-bgWide{
+    background-size: contain;
+  }
+  .main-boxCard{
+    margin-top: 50px;
+    height: 150px;
+  }
+}
+
+
+
+
+.content-aboutMe-bgWide{
+  display: flex;
+  justify-content: center;
+  height: 570px;
+}
+.card{
+  width: 600px;
+}
+.sizing-box{
+  width: 100%;
+}
+.main-boxCard{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 100px;
+}
+.card-header{
+  color: black;
+  border-bottom: 1px solid red;
+}
+
+.card-body{
+  color: black;
+}
+
+.card-header{
+  width: 300px;
+}
+
+
+.content-photo{
+  display: flex;
+  justify-content: center;
+  background-image: url("../../images/me2.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 200px;
+  height: 200px;
+  z-index: 5;
+  margin-right: -40px;
+  margin-left: 30px;
+ }
+
